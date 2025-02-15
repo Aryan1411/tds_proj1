@@ -16,6 +16,6 @@ ENV AIPROXY_TOKEN="eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDE4MzRAZHMuc3R1ZHku
 
 WORKDIR /app
 
-COPY proj1 /app
+COPY . /app
 
 CMD ["uv", "run", "app.py"]
