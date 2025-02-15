@@ -22,8 +22,7 @@ app.add_middleware(
 )
 
 # Your AI Proxy token (set this as an environment variable in production)
-AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN", "your-ai-proxy-token-here")
-
+AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN", "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDE4MzRAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9._wRoOghFlCA279Z9xgFn_sQLVSt9mBOunYxiPFNuNWI")
 
 @app.get("/")
 def home():
